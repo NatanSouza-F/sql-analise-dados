@@ -34,3 +34,4 @@ SELECT TOP 100 *
 FROM dbo.Investimentos_Limpos
 ORDER BY Data_Carga DESC;
 GO
+
