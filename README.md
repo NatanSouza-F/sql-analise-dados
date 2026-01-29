@@ -41,7 +41,7 @@ A partir das queries desenvolvidas, foi possível:
 ---
 
 ###  Estrutura do Projeto
-Os scripts SQL estão organizados de forma incremental, refletindo um fluxo analítico real:
+Os scripts SQL estão organizados de forma incremental, refletindo um fluxo analítico:
 - Limpeza e padronização dos dados  
 - Análises exploratórias  
 - Classificação de risco  
@@ -50,5 +50,5 @@ Os scripts SQL estão organizados de forma incremental, refletindo um fluxo anal
 ---
 
 ###  Considerações Finais
-Este projeto faz parte do meu **portfólio de migração para Análise de Dados**, unindo minha experiência prática em **Prevenção a Fraudes e Riscos** com aprendizado em **engenharia e análise de dados em SQL Server**.
+Este projeto faz parte do meu **portfólio de migração para Análise de Dados**, unindo minha experiência prática em **Prevenção a Fraudes e Riscos** com aprendizado em **Engenharia e Análise de Dados em SQL Server**.
 
