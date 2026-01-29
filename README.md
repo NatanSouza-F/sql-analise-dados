@@ -1,25 +1,54 @@
-📊 Análises em SQL Server
+# 📊 Análises em SQL Server  
+## 🔎 Detecção de Riscos e Fraudes em Dados Públicos
 
-🕵️‍♂️ Detecção de Fraudes em Dados Públicos (SQL Server)
+### 🧠 Contexto do Projeto
+Este projeto tem como objetivo aplicar **análise de dados com SQL Server** sobre uma base pública de **repasses governamentais**, simulando cenários reais de **auditoria, risco operacional e prevenção a fraudes**.
 
-📌 O Problema de Negócio
-Como Analista de Riscos, o objetivo deste projeto foi auditar uma base pública de repasses governamentais para identificar inconsistências financeiras e padrões suspeitos que indicariam fraudes ou erros operacionais.
+A proposta é transformar dados brutos em **informações estratégicas**, apoiando a tomada de decisão baseada em dados (*data-driven*).
 
-**Principais perguntas respondidas:**
-* Onde estão os maiores volumes financeiros?
-* Existem projetos milionários sem repasse efetivado (anomalia)?
-* Quais regiões concentram os maiores riscos?
+---
 
-🛠️ Tecnologias Utilizadas
-* **SQL Server & SSMS:** Banco de dados e IDE.
-* **ETL (Extract, Transform, Load):** Limpeza de dados brutos (conversão de tipos `VARCHAR` para `DECIMAL`, tratamento de datas `111`).
-* **Análise Exploratória:** Agrupamentos (`GROUP BY`), Filtros de Média (`HAVING`) e Ranking (`TOP`).
-* **Regras de Negócio:** Criação de faixas de risco com `CASE WHEN`.
+### 🎯 Problema de Negócio
+Como Analista de Riscos, o desafio central foi responder perguntas como:
+- Onde estão concentrados os **maiores volumes financeiros**?
+- Existem **projetos de alto valor sem repasse efetivado** (anomalias)?
+- Quais **regiões e estados** concentram maior exposição a risco financeiro?
 
-## 🚀 Principais Resultados
-Através das queries desenvolvidas, foi possível:
-1.  **Sanear** uma base de dados com erros de formatação (pt-BR).
-2.  **Identificar** automaticamente projetos acima de R$ 1 Milhão classificados como "Grande Porte".
-3.  **Isolar** transações suspeitas (Alto Valor de Investimento vs. Repasse Zerado) para auditoria humana.
+---
 
-*Este projeto faz parte do meu portfólio de migração para Análise de Dados, unindo minha experiência em Fraudes com Engenharia de Dados.*
+### 🛠️ Tecnologias Utilizadas
+- **SQL Server & SSMS** – Banco de dados e ambiente de desenvolvimento  
+- **ETL (Extract, Transform, Load)** – Limpeza e padronização de dados brutos  
+  - Conversão de tipos (`VARCHAR` → `DECIMAL`)  
+  - Tratamento de datas (padrão `yyyy/mm/dd`)  
+- **Análise Exploratória** –  
+  - Agrupamentos (`GROUP BY`)  
+  - Filtros por média (`HAVING`)  
+  - Rankings (`TOP`)  
+- **Regras de Negócio** –  
+  - Classificação de risco com `CASE WHEN`
+
+---
+
+### 📈 Principais Resultados
+A partir das queries desenvolvidas, foi possível:
+
+1. **Sanear** uma base pública com inconsistências de formatação numérica (pt-BR).  
+2. **Identificar automaticamente** projetos acima de R$ 1 milhão classificados como *Grande Porte*.  
+3. **Isolar transações suspeitas**, como investimentos de alto valor sem repasse efetivado, para análise e auditoria humana.  
+4. Criar **rankings regionais** por UF com base em volume total, média de investimento e concentração de risco.
+
+---
+
+### 📌 Estrutura do Projeto
+Os scripts SQL estão organizados de forma incremental, refletindo um fluxo analítico real:
+- Limpeza e padronização dos dados  
+- Análises exploratórias  
+- Classificação de risco  
+- Criação de *views* para reutilização analítica  
+
+---
+
+### 🚀 Considerações Finais
+Este projeto faz parte do meu **portfólio de migração para Análise de Dados**, unindo minha experiência prática em **Prevenção a Fraudes e Riscos** com **engenharia e análise de dados em SQL Server**.
+
