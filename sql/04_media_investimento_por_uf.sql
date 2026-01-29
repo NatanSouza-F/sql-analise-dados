@@ -11,3 +11,4 @@ FROM dbo.Investimentos_Limpos
 GROUP BY txt_uf
 HAVING AVG(Valor_Investimento) > 500000
 ORDER BY Media_Investimento DESC;
+
