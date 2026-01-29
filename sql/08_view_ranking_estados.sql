@@ -18,3 +18,4 @@ SELECT *
 FROM dbo.Ranking_Estados
 ORDER BY Total_Investido DESC;
 GO
+
