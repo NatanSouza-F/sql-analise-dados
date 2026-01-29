@@ -13,3 +13,4 @@ SELECT TOP 5
     ) AS Relatorio_Automatico
 FROM dbo.Investimentos_Limpos
 ORDER BY Data_Carga DESC;
+
