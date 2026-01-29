@@ -11,3 +11,4 @@ SELECT
 FROM dbo.Investimentos_Limpos
 GROUP BY txt_uf
 ORDER BY Total_Investido DESC;
+
