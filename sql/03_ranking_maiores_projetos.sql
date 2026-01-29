@@ -10,3 +10,4 @@ SELECT TOP 10
     txt_origem
 FROM dbo.Investimentos_Limpos
 ORDER BY Valor_Investimento DESC;
+
