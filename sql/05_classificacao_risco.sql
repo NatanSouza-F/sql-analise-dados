@@ -15,3 +15,4 @@ SELECT TOP 100
     END AS Classificacao_Risco
 FROM dbo.Investimentos_Limpos
 ORDER BY Valor_Investimento DESC;
+
