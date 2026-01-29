@@ -23,3 +23,4 @@ SELECT
     txt_uf
 FROM dbo.Investimentos_Limpos
 WHERE txt_municipio LIKE '%PARÁ%';
+
