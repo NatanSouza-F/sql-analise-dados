@@ -50,5 +50,5 @@ Os scripts SQL estão organizados de forma incremental, refletindo um fluxo anal
 ---
 
 ### 🚀 Considerações Finais
-Este projeto faz parte do meu **portfólio de migração para Análise de Dados**, unindo minha experiência prática em **Prevenção a Fraudes e Riscos** com **engenharia e análise de dados em SQL Server**.
+Este projeto faz parte do meu **portfólio de migração para Análise de Dados**, unindo minha experiência prática em **Prevenção a Fraudes e Riscos** com aprendizado em **engenharia e análise de dados em SQL Server**.
 
